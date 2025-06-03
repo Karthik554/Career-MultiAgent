@@ -42,28 +42,7 @@ api_key = userdata.get("APIKEY")
 search_key = userdata.get("Search_key")
 ## 🔀 Flow Diagram
 
-text
-        ┌──────────────┐
-        │  User Input  │
-        └──────┬───────┘
-               ▼
-        ┌──────────────┐
-        │ Profile Node │ ← Extracts skills, experience
-        └──────┬───────┘
-               ▼
-        ┌──────────────┐
-        │ Job Search   │ ← Crafts search query + Tavily Search
-        └──────┬───────┘
-               ▼
-        ┌──────────────┐
-        │ Match Jobs   │ ← Selects top 3 jobs
-        └──────┬───────┘
-               ▼
-        ┌──────────────┐
-        │ Cover Letter │ ← Generates custom letter
-        └──────┬───────┘
-               ▼
-             [ END ]
+![image](https://github.com/user-attachments/assets/c5e1098f-43e3-4d95-a3d9-e64cb62a3040)
 
 ## Screenshots:
 ![image](https://github.com/user-attachments/assets/e8de2607-0512-4e8a-be50-aa648bbaac00)
